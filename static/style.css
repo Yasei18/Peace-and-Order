@@ -48,7 +48,7 @@ hr {
   min-height: 820px;
   position: relative;;
 
-  background: url("/static/images/background_intro.jpg") center no-repeat;
+  background: url("./static/images/background_intro.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
