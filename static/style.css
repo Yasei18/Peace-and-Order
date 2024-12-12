@@ -307,7 +307,7 @@ hr {
 
 /* Footer */
 .footer {
-  background: url("/static/images/footer.jpg") center no-repeat;
+  background: url("./static/images/footer.jpg") center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
 }
