@@ -237,6 +237,7 @@ hr {
   border-color: transparent transparent transparent #0c1855;
   border-style: solid;
   border-width: 54px 0 54px 54px;
+  margin: -107.5px 1px 0px 0px;
   display: block;
   float: right;
   height: 0;
@@ -251,11 +252,11 @@ hr {
   float: left;
   font-size: 48px;
   font-weight: 400;
-  height: 108px;
-  line-height: 108px;
+  height: 107px;
+  line-height: 107px;
   overflow: hidden;
   text-align: center;
-  width:calc(100% - 108px);
+  width:calc(100% - 107.5px);
 }
 
 .hexagon:hover .l{
@@ -386,6 +387,14 @@ hr {
 @media (max-width: 1230px) {
 
   /* INTRO */
+  .intro {
+  
+    background: url("../static/images/background_intro_mobile.png") center no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+  }
+
+
   .intro__subtitle {
     font-size: 52px;
   }
@@ -416,6 +425,17 @@ hr {
   .dropdown {
     margin: 35px 20px 35px;
   }
+
+  .section__subtitle {
+    font-size: 64px;
+  }
+
+  .section__title {
+  font-size: 32px;
+  font-weight: 400;
+  color: #000000;
+  margin-left: 400px;
+}
 
 }
 
