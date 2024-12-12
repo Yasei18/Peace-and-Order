@@ -241,23 +241,6 @@ hr {
   transform: translate3d(-10px, -10px, 0);
 }
 
-
-.card__item:hover .card__img img{
-  opacity: .3;
-}
-
-.card__item:hover .card__img__vaero img{
-  opacity: .3;
-}
-
-.card__item:hover .card__img__toravaki img{
-  opacity: .3;
-}
-
-.card__item:hover .card__text {
-  opacity: 1;
-}
-
 .card__img {
   background: linear-gradient(to bottom, 
   #e5e5e5, #1c2c7c);
