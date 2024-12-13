@@ -87,7 +87,7 @@ hr {
 }
 
 .header_mini .dropdown-content {
-  background: linear-gradient(rgb(3, 9, 41, 0.7), rgba(41, 59, 81, 0.7));
+  background: linear-gradient(#030929 5px, rgba(41, 59, 81, 0.7));
 }
 
 /* Nav */
@@ -249,12 +249,11 @@ hr {
   background: transparent;
   width: 300px;
   height: 80px;
-  line-height: 80px;
+  line-height: 68px;
   text-align: center;
-  font-size: 20px;
+  font-size: 36px;
   text-decoration: none;
-  text-transform: uppercase;
-  color: #132166;
+  color: #ffffff;
   margin: 40px auto;
   font-family: 'Prata', serif;
   font-weight: 400;
@@ -273,18 +272,16 @@ hr {
 
 .button:before {
   transform: perspective(15px) rotateX(3deg);
+  background: #0C1855
 }
 .button:after {
   top: 35px;
   transform: perspective(15px) rotateX(-3deg);
+  background: #0C1855;
 }
 
 /* Button Border Style */
 
-.button.border:before,
-.button.border:after {
-  border: 4px solid #132166;
-}
 .button.border:before {
   border-bottom: none; /* to prevent the border-line showing up in the middle of the shape */
 }
@@ -296,10 +293,11 @@ hr {
 
 .button.border:hover:before,
 .button.border:hover:after {
-  background: #132166;
+  background: #0C1855;
 }
+
 .button.border:hover {
-  color: #fff;
+  color: #a6cbe6;
 }
 
 /* card */
