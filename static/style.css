@@ -417,6 +417,13 @@ hr {
 
   /* INTRO */
   .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 0vh;
+    min-height: 820px;
+    position: relative;;
   
     background: url("../static/images/background_intro_mobile.png") center no-repeat;
     -webkit-background-size: cover;
@@ -464,6 +471,14 @@ hr {
   font-weight: 400;
   color: #000000;
   margin-left: 400px;
+}
+
+.nav {
+  font-size: 37px;
+}
+
+.dropdown .dropbtn {
+  font-size: 37px;  
 }
 
 }
